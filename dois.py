@@ -1,0 +1,20 @@
+#Operadores
+x=10
+print(f'x={x}')
+#incremento
+x+=2
+print(f'x={x}')
+#subtração
+x-=3
+print(f'x={x}')
+z=20
+print(f'z={z}')
+#multiplicação
+z*=2
+print(f'z={z}')
+#divisão
+z/=2
+print(f'z={z}')
+#resto da divisão
+z%=2
+print(f'z={z}')

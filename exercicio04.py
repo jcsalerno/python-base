@@ -1,0 +1,5 @@
+print ('Bem vindo ao desafio 2! Aqui vamos ler o dia mês e ano que você nasceu')
+dia = input ('Que dia você nasceu?')
+mes = input ('Que mês você nasceu?')
+ano = input ('Que ano você nasceu?')
+print ('Você nasceu no', dia, 'de', mes, 'de', ano, '.Correto?')
