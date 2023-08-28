@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "aa27bf8711585f96474c5c610097bab1"
+API_KEY = ""
 cidade = "rio de janeiro"
 
 link = f"https://api.openweathermap.org/data/2.5/weather?q={cidade}&appid={API_KEY}&lang=pt_br"
