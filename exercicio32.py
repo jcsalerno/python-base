@@ -12,10 +12,14 @@ __version__ = "0.0.1"
 __author__ = "Julio Cesar"
 __license__ = "Unlicense"
 
-current_language = 'en_US'
+import os
+
+current_language = os.getenv('LANG', 'en_US')[:5]
 
 if current_language == 'pt_Br':
     msg = 'Olá, Mundo!'
+elif current_language =='it_IT':
+    msg = 'Ciao, Mondo!'
 
 msg = 'Hello, World!'
 print(msg)
