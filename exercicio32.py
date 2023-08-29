@@ -1,4 +1,4 @@
-#!/usr/bin/env pytho
+#!/usr/bin/env python
 """Hello World. Multi languages.
 Depending on the language configured in the environment, the program displays 
 the corresponding message.
