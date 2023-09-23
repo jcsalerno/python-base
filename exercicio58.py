@@ -17,11 +17,10 @@ cartao = (compra / 5)
 credito = compra + (compra * 20 / 100)
 
 if opcao == 1:
-    print(f'Sua compra foi no valor de {compra:.1f}. Você teve um desconto de 10%. Valor total a ser pago é R$ {compra - avista:.1f}')
+    print(f'Sua compra foi no valor de {compra:.2f}. Você teve um desconto de 10%. Valor total a ser pago é R$ {compra - avista:.2f}')
 elif opcao == 2:
-    print(f'Sua compra foi no valor de {compra:.1f}. Você teve um desconto de 5%. Valor total a ser pago é R$ {compra - cartao:.1f}')
+    print(f'Sua compra foi no valor de {compra:.2f}. Você teve um desconto de 5%. Valor total a ser pago é R$ {compra - cartao:.2f}')
 elif opcao == 4:
-    print(f'Sua compra foi no valor de {compra:.1f}. Você pagou 20% de juros! Valor total a ser pago é R$ {credito:.1f}')
+    print(f'Sua compra foi no valor de {compra:.2f}. Você pagou 20% de juros! Valor total a ser pago é R$ {credito:.2f}')
 else:
-    print(f'Sua compra não teve desconto. Total R$ {compra:.1f} ')
-
+    print(f'Sua compra não teve desconto. Total R$ {compra:.2f} ')
